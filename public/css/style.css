@@ -1158,7 +1158,7 @@ SECTIONS
 
 hr.invis {
     border: 0;
-    margin: 30px 0;
+    margin: 0;
 }
 
 
@@ -1720,6 +1720,7 @@ TESTIMONIAL
 
 .p40l {
     padding-left: 4rem;
+    margin-top: 5rem;
 }
 
 .custom-module h2 {
@@ -1735,6 +1736,10 @@ TESTIMONIAL
     padding: 0 10px;
 }
 
+.custom-module .para {
+    padding: 0;
+    margin-bottom: 3rem;
+}
 .custom-module p {
     padding: 0;
     margin: 0;
