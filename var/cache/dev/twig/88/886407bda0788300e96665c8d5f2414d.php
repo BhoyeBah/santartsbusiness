@@ -133,7 +133,10 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
             <div class=\"row\">
                 <div class=\"col-md-6 hidden-sm hidden-xs\">
                     <div class=\"custom-module\">
-                        <img src=\"upload/people_04.jpeg\" alt=\"\" class=\"img-responsive wow slideInLeft\">
+                        <img src=\"";
+        // line 28
+        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/people_04.jpeg"), "html", null, true);
+        yield "\" alt=\"\" class=\"img-responsive wow slideInLeft\">
                     </div><!-- end module -->
                 </div><!-- end col -->
                 <div class=\"col-md-6\">
@@ -613,7 +616,7 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  113 => 5,  103 => 4,  83 => 3,  61 => 2,  38 => 1,);
+        return array (  138 => 28,  113 => 5,  103 => 4,  83 => 3,  61 => 2,  38 => 1,);
     }
 
     public function getSourceContext()
@@ -645,7 +648,7 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
             <div class=\"row\">
                 <div class=\"col-md-6 hidden-sm hidden-xs\">
                     <div class=\"custom-module\">
-                        <img src=\"upload/people_04.jpeg\" alt=\"\" class=\"img-responsive wow slideInLeft\">
+                        <img src=\"{{ asset('upload/people_04.jpeg') }}\" alt=\"\" class=\"img-responsive wow slideInLeft\">
                     </div><!-- end module -->
                 </div><!-- end col -->
                 <div class=\"col-md-6\">

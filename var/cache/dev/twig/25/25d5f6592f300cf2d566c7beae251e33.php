@@ -106,7 +106,10 @@ class __TwigTemplate_fd972bbae97ffcb946fa8fa94304d754 extends Template
 
 <!-- LOADER -->
 <div id=\"preloader\">
-    <img class=\"preloader\" src=\"images/loader.gif\" alt=\"\">
+    <img class=\"preloader\" src=\"";
+        // line 44
+        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/loader.gif"), "html", null, true);
+        yield "\" alt=\"\">
 </div><!-- end loader -->
 <!-- END LOADER -->
 
@@ -164,7 +167,10 @@ class __TwigTemplate_fd972bbae97ffcb946fa8fa94304d754 extends Template
                         <span class=\"icon-bar\"></span>
                     </button>
                     <div class=\"logo-normal\">
-                        <a class=\"navbar-brand\" href=\"index.html\"><img src=\"images/logo-dark.png\" alt=\"\"></a>
+                        <a class=\"navbar-brand\" href=\"index.html\"><img src=\"";
+        // line 102
+        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/logo-dark.png"), "html", null, true);
+        yield "\" alt=\"\"></a>
                     </div>
                 </div>
 
@@ -223,7 +229,10 @@ class __TwigTemplate_fd972bbae97ffcb946fa8fa94304d754 extends Template
                                     <button type=\"submit\" class=\"btn btn-primary\"><i class=\"fa fa-paper-plane-o\"></i></button>
                                 </div>
                             </form>
-                            <img src=\"images/payments.png\" alt=\"\" class=\"img-responsive\">
+                            <img src=\"";
+        // line 191
+        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/payments.png"), "html", null, true);
+        yield "\" alt=\"\" class=\"img-responsive\">
                         </div><!-- end newsletter -->
                     </div><!-- end widget -->
                 </div><!-- end col -->
@@ -378,7 +387,7 @@ class __TwigTemplate_fd972bbae97ffcb946fa8fa94304d754 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  350 => 176,  340 => 175,  325 => 273,  320 => 271,  316 => 270,  312 => 269,  308 => 268,  304 => 267,  212 => 177,  210 => 175,  200 => 167,  196 => 165,  193 => 164,  188 => 154,  183 => 147,  179 => 109,  175 => 108,  100 => 36,  96 => 35,  90 => 32,  86 => 31,  82 => 30,  78 => 29,  74 => 28,  45 => 1,);
+        return array (  359 => 176,  349 => 175,  334 => 273,  329 => 271,  325 => 270,  321 => 269,  317 => 268,  313 => 267,  234 => 191,  218 => 177,  216 => 175,  206 => 167,  202 => 165,  199 => 164,  194 => 154,  189 => 147,  185 => 109,  181 => 108,  172 => 102,  111 => 44,  100 => 36,  96 => 35,  90 => 32,  86 => 31,  82 => 30,  78 => 29,  74 => 28,  45 => 1,);
     }
 
     public function getSourceContext()
@@ -426,7 +435,7 @@ class __TwigTemplate_fd972bbae97ffcb946fa8fa94304d754 extends Template
 
 <!-- LOADER -->
 <div id=\"preloader\">
-    <img class=\"preloader\" src=\"images/loader.gif\" alt=\"\">
+    <img class=\"preloader\" src=\"{{ asset('images/loader.gif') }}\" alt=\"\">
 </div><!-- end loader -->
 <!-- END LOADER -->
 
@@ -484,7 +493,7 @@ class __TwigTemplate_fd972bbae97ffcb946fa8fa94304d754 extends Template
                         <span class=\"icon-bar\"></span>
                     </button>
                     <div class=\"logo-normal\">
-                        <a class=\"navbar-brand\" href=\"index.html\"><img src=\"images/logo-dark.png\" alt=\"\"></a>
+                        <a class=\"navbar-brand\" href=\"index.html\"><img src=\"{{ asset('images/logo-dark.png') }}\" alt=\"\"></a>
                     </div>
                 </div>
 
@@ -573,7 +582,7 @@ class __TwigTemplate_fd972bbae97ffcb946fa8fa94304d754 extends Template
                                     <button type=\"submit\" class=\"btn btn-primary\"><i class=\"fa fa-paper-plane-o\"></i></button>
                                 </div>
                             </form>
-                            <img src=\"images/payments.png\" alt=\"\" class=\"img-responsive\">
+                            <img src=\"{{ asset('images/payments.png') }}\" alt=\"\" class=\"img-responsive\">
                         </div><!-- end newsletter -->
                     </div><!-- end widget -->
                 </div><!-- end col -->
