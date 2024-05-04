@@ -131,7 +131,7 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
     <section class=\"section\">
         <div class=\"container\">
             <div class=\"row\">
-                <div class=\"col-md-6 hidden-sm hidden-xs\">
+                <div class=\"col-md-6\">
                     <div class=\"custom-module\">
                         <img src=\"";
         // line 28
@@ -646,7 +646,7 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
     <section class=\"section\">
         <div class=\"container\">
             <div class=\"row\">
-                <div class=\"col-md-6 hidden-sm hidden-xs\">
+                <div class=\"col-md-6\">
                     <div class=\"custom-module\">
                         <img src=\"{{ asset('upload/people_04.jpeg') }}\" alt=\"\" class=\"img-responsive wow slideInLeft\">
                     </div><!-- end module -->
