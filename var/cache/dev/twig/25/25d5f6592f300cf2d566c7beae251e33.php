@@ -187,22 +187,25 @@ class __TwigTemplate_fd972bbae97ffcb946fa8fa94304d754 extends Template
 ";
         // line 147
         yield "                        <li><a href=\"events.html\">Evenements</a></li>
+                        <li><a href=\"";
+        // line 148
+        yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("shop");
+        yield "\">Produit</a></li>
                         <li class=\"dropdown hassubmenu\">
-                            <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">Produit <span class=\"fa fa-angle-down\"></span></a>
 ";
-        // line 154
+        // line 155
         yield "                        </li>
                         <li class=\"dropdown hassubmenu\">
                             <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">Blog <span class=\"fa fa-angle-down\"></span></a>
 ";
-        // line 164
+        // line 165
         yield "                        </li>
                         <li><a href=\"";
-        // line 165
+        // line 166
         yield $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("contact");
         yield "\">Contact</a></li>
 ";
-        // line 167
+        // line 168
         yield "                        <li class=\"iconitem\"><a class=\"shopicon\" href=\"shop-cart.html\"><i class=\"fa fa-shopping-basket\"></i> &nbsp;(0)</a></li>
                     </ul>
                 </div>
@@ -212,9 +215,9 @@ class __TwigTemplate_fd972bbae97ffcb946fa8fa94304d754 extends Template
 
 
     ";
-        // line 175
+        // line 176
         yield from $this->unwrap()->yieldBlock('body', $context, $blocks);
-        // line 177
+        // line 178
         yield "    <footer class=\"section footer noover\">
         <div class=\"container\">
             <div class=\"row\">
@@ -230,7 +233,7 @@ class __TwigTemplate_fd972bbae97ffcb946fa8fa94304d754 extends Template
                                 </div>
                             </form>
                             <img src=\"";
-        // line 191
+        // line 192
         yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("images/payments.png"), "html", null, true);
         yield "\" alt=\"\" class=\"img-responsive\">
                         </div><!-- end newsletter -->
@@ -309,28 +312,28 @@ class __TwigTemplate_fd972bbae97ffcb946fa8fa94304d754 extends Template
 
 <!-- jQuery Files -->
 <script src=\"";
-        // line 267
+        // line 268
         yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/jquery.min.js"), "html", null, true);
         yield "\"></script>
 <script src=\"";
-        // line 268
+        // line 269
         yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/bootstrap.min.js"), "html", null, true);
         yield "\"></script>
 <script src=\"";
-        // line 269
+        // line 270
         yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/carousel.js"), "html", null, true);
         yield "\"></script>
 <script src=\"";
-        // line 270
+        // line 271
         yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/animate.js"), "html", null, true);
         yield "\"></script>
 <script src=\"";
-        // line 271
+        // line 272
         yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/custom.js"), "html", null, true);
         yield "\"></script>
 <!-- VIDEO BG PLUGINS -->
 <script src=";
-        // line 273
+        // line 274
         yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/videobg.js"), "html", null, true);
         yield "></script>
 
@@ -345,7 +348,7 @@ class __TwigTemplate_fd972bbae97ffcb946fa8fa94304d754 extends Template
         return; yield '';
     }
 
-    // line 175
+    // line 176
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -355,7 +358,7 @@ class __TwigTemplate_fd972bbae97ffcb946fa8fa94304d754 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 176
+        // line 177
         yield "    ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -387,7 +390,7 @@ class __TwigTemplate_fd972bbae97ffcb946fa8fa94304d754 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  359 => 176,  349 => 175,  334 => 273,  329 => 271,  325 => 270,  321 => 269,  317 => 268,  313 => 267,  234 => 191,  218 => 177,  216 => 175,  206 => 167,  202 => 165,  199 => 164,  194 => 154,  189 => 147,  185 => 109,  181 => 108,  172 => 102,  111 => 44,  100 => 36,  96 => 35,  90 => 32,  86 => 31,  82 => 30,  78 => 29,  74 => 28,  45 => 1,);
+        return array (  362 => 177,  352 => 176,  337 => 274,  332 => 272,  328 => 271,  324 => 270,  320 => 269,  316 => 268,  237 => 192,  221 => 178,  219 => 176,  209 => 168,  205 => 166,  202 => 165,  197 => 155,  192 => 148,  189 => 147,  185 => 109,  181 => 108,  172 => 102,  111 => 44,  100 => 36,  96 => 35,  90 => 32,  86 => 31,  82 => 30,  78 => 29,  74 => 28,  45 => 1,);
     }
 
     public function getSourceContext()
@@ -539,8 +542,9 @@ class __TwigTemplate_fd972bbae97ffcb946fa8fa94304d754 extends Template
 {#                            </ul>#}
 {#                        </li>#}
                         <li><a href=\"events.html\">Evenements</a></li>
+                        <li><a href=\"{{ path('shop') }}\">Produit</a></li>
                         <li class=\"dropdown hassubmenu\">
-                            <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">Produit <span class=\"fa fa-angle-down\"></span></a>
+{#                            <a href=\"{{ path('shop') }}\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">Produit <span class=\"fa fa-angle-down\"></span></a>#}
 {#                            <ul class=\"dropdown-menu\" role=\"menu\">#}
 {#                                <li><a href=\"shop.html\">Shop Layout</a></li>#}
 {#                                <li><a href=\"shop-single.html\">Shop Single</a></li>#}
