@@ -161,3 +161,8 @@ c68cf1,127.0.0.1,GET,http://localhost:8000/shop,1714839159,,200,request
 059a9a,127.0.0.1,GET,http://localhost:8000/shop,1714839225,,200,request
 7e9a9c,127.0.0.1,GET,http://localhost:8000/shop,1714839262,,200,request
 a15c66,127.0.0.1,GET,http://localhost:8000/accueil,1714839972,,200,request
+001eb2,127.0.0.1,GET,http://127.0.0.1:8005/,1715003314,,404,request
+ebbffc,127.0.0.1,GET,http://127.0.0.1:8005/accueil,1715003458,,200,request
+a217ca,127.0.0.1,GET,http://127.0.0.1:8005/accueil,1715006267,,200,request
+d9096a,127.0.0.1,GET,http://127.0.0.1:8005/accueil,1715006276,,200,request
+da4f05,127.0.0.1,GET,http://127.0.0.1:8005/accueil,1715006303,,200,request
