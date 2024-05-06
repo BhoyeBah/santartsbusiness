@@ -16,8 +16,10 @@ return [
         '/_profiler/open' => [[['_route' => '_profiler_open_file', '_controller' => 'web_profiler.controller.profiler::openAction'], null, null, null, false, false, null]],
         '/accueil' => [[['_route' => 'accueil', '_controller' => 'App\\Controller\\homeController::accueil'], null, null, null, false, false, null]],
         '/about' => [[['_route' => 'about', '_controller' => 'App\\Controller\\homeController::about'], null, null, null, false, false, null]],
+        '/evenement' => [[['_route' => 'evenement', '_controller' => 'App\\Controller\\homeController::evenement'], null, null, null, false, false, null]],
         '/service' => [[['_route' => 'service', '_controller' => 'App\\Controller\\homeController::service'], null, null, null, false, false, null]],
         '/shop' => [[['_route' => 'shop', '_controller' => 'App\\Controller\\homeController::shop'], null, null, null, false, false, null]],
+        '/galerie' => [[['_route' => 'galerie', '_controller' => 'App\\Controller\\homeController::galerie'], null, null, null, false, false, null]],
         '/contact' => [[['_route' => 'contact', '_controller' => 'App\\Controller\\homeController::contact'], null, null, null, false, false, null]],
     ],
     [ // $regexpList

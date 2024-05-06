@@ -161,170 +161,80 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
     <section class=\"section gb\">
         <div class=\"container\">
             <div class=\"section-title text-center\">
-                <h3>Recent Courses</h3>
-                <p>Maecenas sit amet tristique turpis. Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
-            </div><!-- end title -->
+                <h3>Nos produits</h3>
+";
+        // line 55
+        yield "            </div><!-- end title -->
 
             <div id=\"owl-01\" class=\"owl-carousel owl-theme owl-theme-01\">
                 <div class=\"caro-item\">
-                    <div class=\"course-box\">
+                    <div class=\"course-box shop-wrapper\">
                         <div class=\"image-wrap entry\">
-                            <img src=\"upload/course_01.jpg\" alt=\"\" class=\"img-responsive\">
+                            <img src=\"";
+        // line 61
+        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/shop_01.jpg"), "html", null, true);
+        yield "\" alt=\"\" class=\"img-responsive\">
                             <div class=\"magnifier\">
-                                <a href=\"#\" title=\"\"><i class=\"flaticon-add\"></i></a>
+                                <a href=\"shop-single.html\" title=\"\"><i class=\"flaticon-add\"></i></a>
                             </div>
-                        </div><!-- end image-wrap -->
-                        <div class=\"course-details\">
+                        </div>
+                        <!-- end image-wrap -->
+                        <div class=\"course-details shop-box text-center\">
                             <h4>
-                                <small>Javascript</small>
-                                <a href=\"#\" title=\"\">Modern JavaScript Linting With ESLint</a>
+                                <a href=\"shop-single.html\" title=\"\">Brown leather bag</a>
+                                <small>Bags</small>
                             </h4>
-                            <p>Fusce interdum, elit sit amet vehicula malesuada, eros libero elementum orci.</p>
-                        </div><!-- end details -->
+                        </div>
+                        <!-- end details -->
                         <div class=\"course-footer clearfix\">
                             <div class=\"pull-left\">
                                 <ul class=\"list-inline\">
-                                    <li><a href=\"#\"><i class=\"fa fa-user\"></i> 21</a></li>
-                                    <li><a href=\"#\"><i class=\"fa fa-clock-o\"></i> 15 Min.</a></li>
+                                    <li><a href=\"#\"><i class=\"fa fa-shopping-basket\"></i> Add Cart</a></li>
                                 </ul>
                             </div><!-- end left -->
 
                             <div class=\"pull-right\">
                                 <ul class=\"list-inline\">
-                                    <li><a href=\"#\">\$22.00</a></li>
+                                    <li><a href=\"#\">\$441.00</a></li>
                                 </ul>
                             </div><!-- end left -->
                         </div><!-- end footer -->
                     </div><!-- end box -->
-                </div><!-- end col -->
-
+                </div>
                 <div class=\"caro-item\">
-                    <div class=\"course-box\">
+                    <div class=\"course-box shop-wrapper\">
                         <div class=\"image-wrap entry\">
-                            <img src=\"upload/course_02.jpg\" alt=\"\" class=\"img-responsive\">
+                            <img src=\"";
+        // line 92
+        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/shop_01.jpg"), "html", null, true);
+        yield "\" alt=\"\" class=\"img-responsive\">
                             <div class=\"magnifier\">
-                                <a href=\"#\" title=\"\"><i class=\"flaticon-add\"></i></a>
+                                <a href=\"shop-single.html\" title=\"\"><i class=\"flaticon-add\"></i></a>
                             </div>
-                        </div><!-- end image-wrap -->
-                        <div class=\"course-details\">
+                        </div>
+                        <!-- end image-wrap -->
+                        <div class=\"course-details shop-box text-center\">
                             <h4>
-                                <small>Design</small>
-                                <a href=\"#\" title=\"\">Designing Game UI Assets in Adobe Illustrator</a>
+                                <a href=\"shop-single.html\" title=\"\">Brown leather bag</a>
+                                <small>Bags</small>
                             </h4>
-                            <p>Curabitur condimentum velit non odio mattis tristique. Nam vitae orci aliquam. </p>
-                        </div><!-- end details -->
+                        </div>
+                        <!-- end details -->
                         <div class=\"course-footer clearfix\">
                             <div class=\"pull-left\">
                                 <ul class=\"list-inline\">
-                                    <li><a href=\"#\"><i class=\"fa fa-user\"></i> 41</a></li>
-                                    <li><a href=\"#\"><i class=\"fa fa-clock-o\"></i> 33 Min.</a></li>
+                                    <li><a href=\"#\"><i class=\"fa fa-shopping-basket\"></i> Add Cart</a></li>
                                 </ul>
                             </div><!-- end left -->
 
                             <div class=\"pull-right\">
                                 <ul class=\"list-inline\">
-                                    <li><a href=\"#\">\$55.00</a></li>
+                                    <li><a href=\"#\">\$441.00</a></li>
                                 </ul>
                             </div><!-- end left -->
                         </div><!-- end footer -->
                     </div><!-- end box -->
-                </div><!-- end col -->
-
-                <div class=\"caro-item\">
-                    <div class=\"course-box\">
-                        <div class=\"image-wrap entry\">
-                            <img src=\"upload/course_03.jpg\" alt=\"\" class=\"img-responsive\">
-                            <div class=\"magnifier\">
-                                <a href=\"#\" title=\"\"><i class=\"flaticon-add\"></i></a>
-                            </div>
-                        </div><!-- end image-wrap -->
-                        <div class=\"course-details\">
-                            <h4>
-                                <small>PHP Coding</small>
-                                <a href=\"#\" title=\"\">How to Become a Web Developer: Learn PHP</a>
-                            </h4>
-                            <p>Donec auctor nec nibh sit amet pulvinar. Mauris nulla elit, lacinia ac facilisis mattis.</p>
-                        </div><!-- end details -->
-                        <div class=\"course-footer clearfix\">
-                            <div class=\"pull-left\">
-                                <ul class=\"list-inline\">
-                                    <li><a href=\"#\"><i class=\"fa fa-user\"></i> 35</a></li>
-                                    <li><a href=\"#\"><i class=\"fa fa-clock-o\"></i> 1 Hrs.</a></li>
-                                </ul>
-                            </div><!-- end left -->
-
-                            <div class=\"pull-right\">
-                                <ul class=\"list-inline\">
-                                    <li><a href=\"#\">\$51.00</a></li>
-                                </ul>
-                            </div><!-- end left -->
-                        </div><!-- end footer -->
-                    </div><!-- end box -->
-                </div><!-- end col -->
-
-                <div class=\"caro-item\">
-                    <div class=\"course-box\">
-                        <div class=\"image-wrap entry\">
-                            <img src=\"upload/course_04.jpg\" alt=\"\" class=\"img-responsive\">
-                            <div class=\"magnifier\">
-                                <a href=\"#\" title=\"\"><i class=\"flaticon-add\"></i></a>
-                            </div>
-                        </div><!-- end image-wrap -->
-                        <div class=\"course-details\">
-                            <h4>
-                                <small>PHP Coding</small>
-                                <a href=\"#\" title=\"\">How to Build a Custom Theme for Drupal 8</a>
-                            </h4>
-                            <p>Pellentesque ut enim dictum, interdum lorem eget, vulputate eros sed felis euismod.</p>
-                        </div><!-- end details -->
-                        <div class=\"course-footer clearfix\">
-                            <div class=\"pull-left\">
-                                <ul class=\"list-inline\">
-                                    <li><a href=\"#\"><i class=\"fa fa-user\"></i> 35</a></li>
-                                    <li><a href=\"#\"><i class=\"fa fa-clock-o\"></i> 45 Min.</a></li>
-                                </ul>
-                            </div><!-- end left -->
-
-                            <div class=\"pull-right\">
-                                <ul class=\"list-inline\">
-                                    <li><a href=\"#\">\$51.00</a></li>
-                                </ul>
-                            </div><!-- end left -->
-                        </div><!-- end footer -->
-                    </div><!-- end box -->
-                </div><!-- end col -->
-
-                <div class=\"caro-item\">
-                    <div class=\"course-box\">
-                        <div class=\"image-wrap entry\">
-                            <img src=\"upload/course_01.jpg\" alt=\"\" class=\"img-responsive\">
-                            <div class=\"magnifier\">
-                                <a href=\"#\" title=\"\"><i class=\"flaticon-add\"></i></a>
-                            </div>
-                        </div><!-- end image-wrap -->
-                        <div class=\"course-details\">
-                            <h4>
-                                <small>Javascript</small>
-                                <a href=\"#\" title=\"\">Modern JavaScript Linting With ESLint</a>
-                            </h4>
-                            <p>Fusce interdum, elit sit amet vehicula malesuada, eros libero elementum orci.</p>
-                        </div><!-- end details -->
-                        <div class=\"course-footer clearfix\">
-                            <div class=\"pull-left\">
-                                <ul class=\"list-inline\">
-                                    <li><a href=\"#\"><i class=\"fa fa-user\"></i> 21</a></li>
-                                    <li><a href=\"#\"><i class=\"fa fa-clock-o\"></i> 15 Min.</a></li>
-                                </ul>
-                            </div><!-- end left -->
-
-                            <div class=\"pull-right\">
-                                <ul class=\"list-inline\">
-                                    <li><a href=\"#\">\$22.00</a></li>
-                                </ul>
-                            </div><!-- end left -->
-                        </div><!-- end footer -->
-                    </div><!-- end box -->
-                </div><!-- end col -->
+                </div>
             </div><!-- end row -->
 
             <hr class=\"invis\">
@@ -442,7 +352,10 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
             <div class=\"row\">
                 <div class=\"col-md-4\">
                     <div class=\"box testimonial\">
-                        <p class=\"testiname\"><strong><img src=\"upload/testimonial_01.png\" alt=\"\" class=\"img-circle\"> Jenny LUXURY</strong></p>
+                        <p class=\"testiname\"><strong><img src=\"";
+        // line 237
+        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/testimonial_01.png"), "html", null, true);
+        yield "\" alt=\"\" class=\"img-circle\"> Jenny LUXURY</strong></p>
                         <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
                         <div class=\"rating\">
                             <i class=\"fa fa-star\"></i>
@@ -456,7 +369,10 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
 
                 <div class=\"col-md-4\">
                     <div class=\"box testimonial\">
-                        <p class=\"testiname\"><strong><img src=\"upload/testimonial_02.png\" alt=\"\" class=\"img-circle\"> Martin LEO</strong></p>
+                        <p class=\"testiname\"><strong><img src=\"";
+        // line 251
+        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/testimonial_02.png"), "html", null, true);
+        yield "\" alt=\"\" class=\"img-circle\"> Martin LEO</strong></p>
                         <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
                         <div class=\"rating\">
                             <i class=\"fa fa-star\"></i>
@@ -470,7 +386,10 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
 
                 <div class=\"col-md-4\">
                     <div class=\"box testimonial\">
-                        <p class=\"testiname\"><strong><img src=\"upload/testimonial_03.png\" alt=\"\" class=\"img-circle\"> John DOE</strong></p>
+                        <p class=\"testiname\"><strong><img src=\"";
+        // line 265
+        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/testimonial_03.png"), "html", null, true);
+        yield "\" alt=\"\" class=\"img-circle\"> John DOE</strong></p>
                         <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
                         <div class=\"rating\">
                             <i class=\"fa fa-star\"></i>
@@ -488,7 +407,7 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
     <section class=\"section gb\">
         <div class=\"container\">
             <div class=\"section-title text-center\">
-                <h3>Recent News</h3>
+                <h3>Blog</h3>
                 <p>Maecenas sit amet tristique turpis. Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
             </div><!-- end title -->
 
@@ -496,14 +415,23 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
                 <div class=\"col-lg-4 col-md-12\">
                     <div class=\"blog-box\">
                         <div class=\"image-wrap entry\">
-                            <img src=\"upload/blog_01.jpeg\" alt=\"\" class=\"img-responsive\">
+                            <img src=\"";
+        // line 291
+        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/blog_01.jpeg"), "html", null, true);
+        yield "\" alt=\"\" class=\"img-responsive\">
                             <div class=\"magnifier\">
-                                <a href=\"blog-single.html\" title=\"\"><i class=\"flaticon-add\"></i></a>
+                                <a href=\"";
+        // line 293
+        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("blog-single.html"), "html", null, true);
+        yield "\" title=\"\"><i class=\"flaticon-add\"></i></a>
                             </div>
                         </div><!-- end image-wrap -->
 
                         <div class=\"blog-desc\">
-                            <h4><a href=\"blog-single.html\">How to learn perfect code with Javascript</a></h4>
+                            <h4><a href=\"";
+        // line 298
+        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("blog-single.html"), "html", null, true);
+        yield "\">How to learn perfect code with Javascript</a></h4>
                             <p>Praesent at suscipit ligula. Suspendisse pre neque, quis suscipit enim. sed maximus, mia auctor.</p>
                         </div><!-- end blog-desc -->
 
@@ -520,7 +448,10 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
                 <div class=\"col-lg-4 col-md-12\">
                     <div class=\"blog-box\">
                         <div class=\"image-wrap entry\">
-                            <img src=\"upload/blog_02.jpeg\" alt=\"\" class=\"img-responsive\">
+                            <img src=\"";
+        // line 315
+        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/blog_02.jpeg"), "html", null, true);
+        yield "\" alt=\"\" class=\"img-responsive\">
                             <div class=\"magnifier\">
                                 <a href=\"blog-single.html\" title=\"\"><i class=\"flaticon-add\"></i></a>
                             </div>
@@ -544,7 +475,10 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
                 <div class=\"col-lg-4 col-md-12\">
                     <div class=\"blog-box\">
                         <div class=\"image-wrap entry\">
-                            <img src=\"upload/blog_03.jpeg\" alt=\"\" class=\"img-responsive\">
+                            <img src=\"";
+        // line 339
+        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/blog_03.jpeg"), "html", null, true);
+        yield "\" alt=\"\" class=\"img-responsive\">
                             <div class=\"magnifier\">
                                 <a href=\"blog-single.html\" title=\"\"><i class=\"flaticon-add\"></i></a>
                             </div>
@@ -568,23 +502,12 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
         </div><!-- end container -->
     </section>
 
-    <section class=\"section bgcolor1\">
-        <div class=\"container\">
-            <a href=\"#\">
-                <div class=\"row callout\">
-                    <div class=\"col-md-4 text-center\">
-                        <h3><sup>\$</sup>49.99</h3>
-                        <h4>Start your awesome course today!</h4>
-                    </div><!-- end col -->
-
-                    <div class=\"col-md-8\">
-                        <p class=\"lead\">Limited time offer! Your profile will be added to our \"Students\" directory as well. </p>
-                    </div>
-                </div><!-- end row -->
-            </a>
-        </div><!-- end container -->
-    </section>
-
+";
+        // line 371
+        yield "
+";
+        // line 379
+        yield "
 ";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
@@ -616,7 +539,7 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  138 => 28,  113 => 5,  103 => 4,  83 => 3,  61 => 2,  38 => 1,);
+        return array (  510 => 379,  507 => 371,  480 => 339,  453 => 315,  433 => 298,  425 => 293,  420 => 291,  391 => 265,  374 => 251,  357 => 237,  209 => 92,  175 => 61,  167 => 55,  138 => 28,  113 => 5,  103 => 4,  83 => 3,  61 => 2,  38 => 1,);
     }
 
     public function getSourceContext()
@@ -673,170 +596,73 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
     <section class=\"section gb\">
         <div class=\"container\">
             <div class=\"section-title text-center\">
-                <h3>Recent Courses</h3>
-                <p>Maecenas sit amet tristique turpis. Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
+                <h3>Nos produits</h3>
+{#                <p>Maecenas sit amet tristique turpis. Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>#}
             </div><!-- end title -->
 
             <div id=\"owl-01\" class=\"owl-carousel owl-theme owl-theme-01\">
                 <div class=\"caro-item\">
-                    <div class=\"course-box\">
+                    <div class=\"course-box shop-wrapper\">
                         <div class=\"image-wrap entry\">
-                            <img src=\"upload/course_01.jpg\" alt=\"\" class=\"img-responsive\">
+                            <img src=\"{{ asset('upload/shop_01.jpg') }}\" alt=\"\" class=\"img-responsive\">
                             <div class=\"magnifier\">
-                                <a href=\"#\" title=\"\"><i class=\"flaticon-add\"></i></a>
+                                <a href=\"shop-single.html\" title=\"\"><i class=\"flaticon-add\"></i></a>
                             </div>
-                        </div><!-- end image-wrap -->
-                        <div class=\"course-details\">
+                        </div>
+                        <!-- end image-wrap -->
+                        <div class=\"course-details shop-box text-center\">
                             <h4>
-                                <small>Javascript</small>
-                                <a href=\"#\" title=\"\">Modern JavaScript Linting With ESLint</a>
+                                <a href=\"shop-single.html\" title=\"\">Brown leather bag</a>
+                                <small>Bags</small>
                             </h4>
-                            <p>Fusce interdum, elit sit amet vehicula malesuada, eros libero elementum orci.</p>
-                        </div><!-- end details -->
+                        </div>
+                        <!-- end details -->
                         <div class=\"course-footer clearfix\">
                             <div class=\"pull-left\">
                                 <ul class=\"list-inline\">
-                                    <li><a href=\"#\"><i class=\"fa fa-user\"></i> 21</a></li>
-                                    <li><a href=\"#\"><i class=\"fa fa-clock-o\"></i> 15 Min.</a></li>
+                                    <li><a href=\"#\"><i class=\"fa fa-shopping-basket\"></i> Add Cart</a></li>
                                 </ul>
                             </div><!-- end left -->
 
                             <div class=\"pull-right\">
                                 <ul class=\"list-inline\">
-                                    <li><a href=\"#\">\$22.00</a></li>
+                                    <li><a href=\"#\">\$441.00</a></li>
                                 </ul>
                             </div><!-- end left -->
                         </div><!-- end footer -->
                     </div><!-- end box -->
-                </div><!-- end col -->
-
+                </div>
                 <div class=\"caro-item\">
-                    <div class=\"course-box\">
+                    <div class=\"course-box shop-wrapper\">
                         <div class=\"image-wrap entry\">
-                            <img src=\"upload/course_02.jpg\" alt=\"\" class=\"img-responsive\">
+                            <img src=\"{{ asset('upload/shop_01.jpg') }}\" alt=\"\" class=\"img-responsive\">
                             <div class=\"magnifier\">
-                                <a href=\"#\" title=\"\"><i class=\"flaticon-add\"></i></a>
+                                <a href=\"shop-single.html\" title=\"\"><i class=\"flaticon-add\"></i></a>
                             </div>
-                        </div><!-- end image-wrap -->
-                        <div class=\"course-details\">
+                        </div>
+                        <!-- end image-wrap -->
+                        <div class=\"course-details shop-box text-center\">
                             <h4>
-                                <small>Design</small>
-                                <a href=\"#\" title=\"\">Designing Game UI Assets in Adobe Illustrator</a>
+                                <a href=\"shop-single.html\" title=\"\">Brown leather bag</a>
+                                <small>Bags</small>
                             </h4>
-                            <p>Curabitur condimentum velit non odio mattis tristique. Nam vitae orci aliquam. </p>
-                        </div><!-- end details -->
+                        </div>
+                        <!-- end details -->
                         <div class=\"course-footer clearfix\">
                             <div class=\"pull-left\">
                                 <ul class=\"list-inline\">
-                                    <li><a href=\"#\"><i class=\"fa fa-user\"></i> 41</a></li>
-                                    <li><a href=\"#\"><i class=\"fa fa-clock-o\"></i> 33 Min.</a></li>
+                                    <li><a href=\"#\"><i class=\"fa fa-shopping-basket\"></i> Add Cart</a></li>
                                 </ul>
                             </div><!-- end left -->
 
                             <div class=\"pull-right\">
                                 <ul class=\"list-inline\">
-                                    <li><a href=\"#\">\$55.00</a></li>
+                                    <li><a href=\"#\">\$441.00</a></li>
                                 </ul>
                             </div><!-- end left -->
                         </div><!-- end footer -->
                     </div><!-- end box -->
-                </div><!-- end col -->
-
-                <div class=\"caro-item\">
-                    <div class=\"course-box\">
-                        <div class=\"image-wrap entry\">
-                            <img src=\"upload/course_03.jpg\" alt=\"\" class=\"img-responsive\">
-                            <div class=\"magnifier\">
-                                <a href=\"#\" title=\"\"><i class=\"flaticon-add\"></i></a>
-                            </div>
-                        </div><!-- end image-wrap -->
-                        <div class=\"course-details\">
-                            <h4>
-                                <small>PHP Coding</small>
-                                <a href=\"#\" title=\"\">How to Become a Web Developer: Learn PHP</a>
-                            </h4>
-                            <p>Donec auctor nec nibh sit amet pulvinar. Mauris nulla elit, lacinia ac facilisis mattis.</p>
-                        </div><!-- end details -->
-                        <div class=\"course-footer clearfix\">
-                            <div class=\"pull-left\">
-                                <ul class=\"list-inline\">
-                                    <li><a href=\"#\"><i class=\"fa fa-user\"></i> 35</a></li>
-                                    <li><a href=\"#\"><i class=\"fa fa-clock-o\"></i> 1 Hrs.</a></li>
-                                </ul>
-                            </div><!-- end left -->
-
-                            <div class=\"pull-right\">
-                                <ul class=\"list-inline\">
-                                    <li><a href=\"#\">\$51.00</a></li>
-                                </ul>
-                            </div><!-- end left -->
-                        </div><!-- end footer -->
-                    </div><!-- end box -->
-                </div><!-- end col -->
-
-                <div class=\"caro-item\">
-                    <div class=\"course-box\">
-                        <div class=\"image-wrap entry\">
-                            <img src=\"upload/course_04.jpg\" alt=\"\" class=\"img-responsive\">
-                            <div class=\"magnifier\">
-                                <a href=\"#\" title=\"\"><i class=\"flaticon-add\"></i></a>
-                            </div>
-                        </div><!-- end image-wrap -->
-                        <div class=\"course-details\">
-                            <h4>
-                                <small>PHP Coding</small>
-                                <a href=\"#\" title=\"\">How to Build a Custom Theme for Drupal 8</a>
-                            </h4>
-                            <p>Pellentesque ut enim dictum, interdum lorem eget, vulputate eros sed felis euismod.</p>
-                        </div><!-- end details -->
-                        <div class=\"course-footer clearfix\">
-                            <div class=\"pull-left\">
-                                <ul class=\"list-inline\">
-                                    <li><a href=\"#\"><i class=\"fa fa-user\"></i> 35</a></li>
-                                    <li><a href=\"#\"><i class=\"fa fa-clock-o\"></i> 45 Min.</a></li>
-                                </ul>
-                            </div><!-- end left -->
-
-                            <div class=\"pull-right\">
-                                <ul class=\"list-inline\">
-                                    <li><a href=\"#\">\$51.00</a></li>
-                                </ul>
-                            </div><!-- end left -->
-                        </div><!-- end footer -->
-                    </div><!-- end box -->
-                </div><!-- end col -->
-
-                <div class=\"caro-item\">
-                    <div class=\"course-box\">
-                        <div class=\"image-wrap entry\">
-                            <img src=\"upload/course_01.jpg\" alt=\"\" class=\"img-responsive\">
-                            <div class=\"magnifier\">
-                                <a href=\"#\" title=\"\"><i class=\"flaticon-add\"></i></a>
-                            </div>
-                        </div><!-- end image-wrap -->
-                        <div class=\"course-details\">
-                            <h4>
-                                <small>Javascript</small>
-                                <a href=\"#\" title=\"\">Modern JavaScript Linting With ESLint</a>
-                            </h4>
-                            <p>Fusce interdum, elit sit amet vehicula malesuada, eros libero elementum orci.</p>
-                        </div><!-- end details -->
-                        <div class=\"course-footer clearfix\">
-                            <div class=\"pull-left\">
-                                <ul class=\"list-inline\">
-                                    <li><a href=\"#\"><i class=\"fa fa-user\"></i> 21</a></li>
-                                    <li><a href=\"#\"><i class=\"fa fa-clock-o\"></i> 15 Min.</a></li>
-                                </ul>
-                            </div><!-- end left -->
-
-                            <div class=\"pull-right\">
-                                <ul class=\"list-inline\">
-                                    <li><a href=\"#\">\$22.00</a></li>
-                                </ul>
-                            </div><!-- end left -->
-                        </div><!-- end footer -->
-                    </div><!-- end box -->
-                </div><!-- end col -->
+                </div>
             </div><!-- end row -->
 
             <hr class=\"invis\">
@@ -954,7 +780,7 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
             <div class=\"row\">
                 <div class=\"col-md-4\">
                     <div class=\"box testimonial\">
-                        <p class=\"testiname\"><strong><img src=\"upload/testimonial_01.png\" alt=\"\" class=\"img-circle\"> Jenny LUXURY</strong></p>
+                        <p class=\"testiname\"><strong><img src=\"{{ asset('upload/testimonial_01.png') }}\" alt=\"\" class=\"img-circle\"> Jenny LUXURY</strong></p>
                         <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
                         <div class=\"rating\">
                             <i class=\"fa fa-star\"></i>
@@ -968,7 +794,7 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
 
                 <div class=\"col-md-4\">
                     <div class=\"box testimonial\">
-                        <p class=\"testiname\"><strong><img src=\"upload/testimonial_02.png\" alt=\"\" class=\"img-circle\"> Martin LEO</strong></p>
+                        <p class=\"testiname\"><strong><img src=\"{{ asset('upload/testimonial_02.png') }}\" alt=\"\" class=\"img-circle\"> Martin LEO</strong></p>
                         <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
                         <div class=\"rating\">
                             <i class=\"fa fa-star\"></i>
@@ -982,7 +808,7 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
 
                 <div class=\"col-md-4\">
                     <div class=\"box testimonial\">
-                        <p class=\"testiname\"><strong><img src=\"upload/testimonial_03.png\" alt=\"\" class=\"img-circle\"> John DOE</strong></p>
+                        <p class=\"testiname\"><strong><img src=\"{{ asset('upload/testimonial_03.png') }}\" alt=\"\" class=\"img-circle\"> John DOE</strong></p>
                         <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
                         <div class=\"rating\">
                             <i class=\"fa fa-star\"></i>
@@ -1000,7 +826,7 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
     <section class=\"section gb\">
         <div class=\"container\">
             <div class=\"section-title text-center\">
-                <h3>Recent News</h3>
+                <h3>Blog</h3>
                 <p>Maecenas sit amet tristique turpis. Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
             </div><!-- end title -->
 
@@ -1008,14 +834,14 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
                 <div class=\"col-lg-4 col-md-12\">
                     <div class=\"blog-box\">
                         <div class=\"image-wrap entry\">
-                            <img src=\"upload/blog_01.jpeg\" alt=\"\" class=\"img-responsive\">
+                            <img src=\"{{ asset('upload/blog_01.jpeg') }}\" alt=\"\" class=\"img-responsive\">
                             <div class=\"magnifier\">
-                                <a href=\"blog-single.html\" title=\"\"><i class=\"flaticon-add\"></i></a>
+                                <a href=\"{{ asset('blog-single.html') }}\" title=\"\"><i class=\"flaticon-add\"></i></a>
                             </div>
                         </div><!-- end image-wrap -->
 
                         <div class=\"blog-desc\">
-                            <h4><a href=\"blog-single.html\">How to learn perfect code with Javascript</a></h4>
+                            <h4><a href=\"{{ asset('blog-single.html') }}\">How to learn perfect code with Javascript</a></h4>
                             <p>Praesent at suscipit ligula. Suspendisse pre neque, quis suscipit enim. sed maximus, mia auctor.</p>
                         </div><!-- end blog-desc -->
 
@@ -1032,7 +858,7 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
                 <div class=\"col-lg-4 col-md-12\">
                     <div class=\"blog-box\">
                         <div class=\"image-wrap entry\">
-                            <img src=\"upload/blog_02.jpeg\" alt=\"\" class=\"img-responsive\">
+                            <img src=\"{{ asset('upload/blog_02.jpeg') }}\" alt=\"\" class=\"img-responsive\">
                             <div class=\"magnifier\">
                                 <a href=\"blog-single.html\" title=\"\"><i class=\"flaticon-add\"></i></a>
                             </div>
@@ -1056,7 +882,7 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
                 <div class=\"col-lg-4 col-md-12\">
                     <div class=\"blog-box\">
                         <div class=\"image-wrap entry\">
-                            <img src=\"upload/blog_03.jpeg\" alt=\"\" class=\"img-responsive\">
+                            <img src=\"{{ asset('upload/blog_03.jpeg') }}\" alt=\"\" class=\"img-responsive\">
                             <div class=\"magnifier\">
                                 <a href=\"blog-single.html\" title=\"\"><i class=\"flaticon-add\"></i></a>
                             </div>
@@ -1080,22 +906,22 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
         </div><!-- end container -->
     </section>
 
-    <section class=\"section bgcolor1\">
-        <div class=\"container\">
-            <a href=\"#\">
-                <div class=\"row callout\">
-                    <div class=\"col-md-4 text-center\">
-                        <h3><sup>\$</sup>49.99</h3>
-                        <h4>Start your awesome course today!</h4>
-                    </div><!-- end col -->
+{#    <section class=\"section bgcolor1\">#}
+{#        <div class=\"container\">#}
+{#            <a href=\"#\">#}
+{#                <div class=\"row callout\">#}
+{#                    <div class=\"col-md-4 text-center\">#}
+{#                        <h3><sup>\$</sup>49.99</h3>#}
+{#                        <h4>Start your awesome course today!</h4>#}
+{#                    </div><!-- end col -->#}
 
-                    <div class=\"col-md-8\">
-                        <p class=\"lead\">Limited time offer! Your profile will be added to our \"Students\" directory as well. </p>
-                    </div>
-                </div><!-- end row -->
-            </a>
-        </div><!-- end container -->
-    </section>
+{#                    <div class=\"col-md-8\">#}
+{#                        <p class=\"lead\">Limited time offer! Your profile will be added to our \"Students\" directory as well. </p>#}
+{#                    </div>#}
+{#                </div><!-- end row -->#}
+{#            </a>#}
+{#        </div><!-- end container -->#}
+{#    </section>#}
 
 {% endblock %}", "santart/accueil.html.twig", "C:\\wamp64\\www\\santartbusiness\\templates\\santart\\accueil.html.twig");
     }

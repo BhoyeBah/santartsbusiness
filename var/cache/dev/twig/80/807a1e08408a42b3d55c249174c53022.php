@@ -71,10 +71,10 @@ class __TwigTemplate_092c9bfbd0d31ee6f0a1e83abc09f4cf extends Template
             <div class=\"row\">
                 <div class=\"col-md-12\">
                     <div class=\"tagline-message page-title text-center\">
-                        <h3>Get In Touch</h3>
+                        <h3>Nous Contactez !</h3>
                         <ul class=\"breadcrumb\">
-                            <li><a href=\"javascript:void(0)\">Edulogy</a></li>
-                            <li class=\"active\">Get in touch</li>
+                            <li><a href=\"javascript:void(0)\">SANT’ARTS BUSINESS</a></li>
+                            <li class=\"active\">Nous Contactez !</li>
                         </ul>
                     </div>
                 </div><!-- end col -->
@@ -185,10 +185,10 @@ class __TwigTemplate_092c9bfbd0d31ee6f0a1e83abc09f4cf extends Template
             <div class=\"row\">
                 <div class=\"col-md-12\">
                     <div class=\"tagline-message page-title text-center\">
-                        <h3>Get In Touch</h3>
+                        <h3>Nous Contactez !</h3>
                         <ul class=\"breadcrumb\">
-                            <li><a href=\"javascript:void(0)\">Edulogy</a></li>
-                            <li class=\"active\">Get in touch</li>
+                            <li><a href=\"javascript:void(0)\">SANT’ARTS BUSINESS</a></li>
+                            <li class=\"active\">Nous Contactez !</li>
                         </ul>
                     </div>
                 </div><!-- end col -->
