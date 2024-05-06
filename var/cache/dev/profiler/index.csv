@@ -174,3 +174,15 @@ da4f05,127.0.0.1,GET,http://127.0.0.1:8005/accueil,1715006303,,200,request
 f036b3,127.0.0.1,GET,http://127.0.0.1:8005/accueil,1715008296,,200,request
 538cce,127.0.0.1,GET,http://127.0.0.1:8005/accueil,1715008459,,200,request
 b7a179,127.0.0.1,GET,http://127.0.0.1:8005/accueil,1715009140,,200,request
+88a2d3,127.0.0.1,GET,http://localhost:8005/accueil,1715010376,,200,request
+abb1a4,127.0.0.1,GET,http://127.0.0.1:8005/accueil,1715011388,,200,request
+27bb45,127.0.0.1,GET,http://127.0.0.1:8005/accueil,1715011734,,200,request
+11ab91,127.0.0.1,GET,http://127.0.0.1:8005/accueil,1715011759,,200,request
+ba1de7,127.0.0.1,GET,http://127.0.0.1:8005/accueil,1715011766,,200,request
+95f68d,127.0.0.1,GET,http://localhost:8005/accueil,1715011827,,200,request
+1779c8,127.0.0.1,GET,http://localhost:8005/accueil,1715011841,,200,request
+caafe5,127.0.0.1,GET,http://localhost:8005/accueil,1715012005,,200,request
+7539e0,127.0.0.1,GET,http://localhost:8005/accueil,1715012056,,200,request
+aeb4c3,127.0.0.1,GET,http://localhost:8005/accueil,1715012166,,200,request
+6b75fd,127.0.0.1,GET,http://localhost:8005/accueil,1715012172,,200,request
+3f201a,127.0.0.1,GET,http://localhost:8005/accueil,1715012180,,200,request
