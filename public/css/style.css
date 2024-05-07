@@ -2164,6 +2164,41 @@ mark,
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
 }
+.btn-effect{
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    -webkit-transition: background 0.4s, color 0.4s;
+    -moz-transition: background 0.4s, color 0.4s;
+    transition: background 0.4s, color 0.4s;
+}
+.btn-primaire.btn-effect:after {
+    box-shadow: 0 0 0 3px var(--primaire);
+}
+.btn-effect:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    top: -40%;
+    left: -5%;
+    padding: 15% 5%;
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.4s;
+    transition: transform 0.4s, opacity 0.4s;
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
 
 .pagination a:hover,
 .tags-widget a:hover,

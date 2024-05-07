@@ -166,8 +166,8 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
         // line 55
         yield "            </div><!-- end title -->
 
-            <div id=\"owl-01\" class=\"owl-carousel owl-theme owl-theme-01\">
-                <div class=\"caro-item\">
+            <div class=\"row blog-grid shop-grid\">
+                <div class=\"col-md-3\">
                     <div class=\"course-box shop-wrapper\">
                         <div class=\"image-wrap entry\">
                             <img src=\"";
@@ -200,13 +200,14 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
                             </div><!-- end left -->
                         </div><!-- end footer -->
                     </div><!-- end box -->
-                </div>
-                <div class=\"caro-item\">
+                </div><!-- end col -->
+
+                <div class=\"col-md-3\">
                     <div class=\"course-box shop-wrapper\">
                         <div class=\"image-wrap entry\">
                             <img src=\"";
-        // line 92
-        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/shop_01.jpg"), "html", null, true);
+        // line 93
+        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/shop_02.jpg"), "html", null, true);
         yield "\" alt=\"\" class=\"img-responsive\">
                             <div class=\"magnifier\">
                                 <a href=\"shop-single.html\" title=\"\"><i class=\"flaticon-add\"></i></a>
@@ -215,8 +216,8 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
                         <!-- end image-wrap -->
                         <div class=\"course-details shop-box text-center\">
                             <h4>
-                                <a href=\"shop-single.html\" title=\"\">Brown leather bag</a>
-                                <small>Bags</small>
+                                <a href=\"shop-single.html\" title=\"\">Long coat jacket</a>
+                                <small>Jackets</small>
                             </h4>
                         </div>
                         <!-- end details -->
@@ -229,86 +230,90 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
 
                             <div class=\"pull-right\">
                                 <ul class=\"list-inline\">
-                                    <li><a href=\"#\">\$441.00</a></li>
+                                    <li><a href=\"#\">\$122.00</a></li>
                                 </ul>
                             </div><!-- end left -->
                         </div><!-- end footer -->
                     </div><!-- end box -->
-                </div>
+                </div><!-- end col -->
+
+                <div class=\"col-md-3\">
+                    <div class=\"course-box shop-wrapper\">
+                        <div class=\"image-wrap entry\">
+                            <img src=\"";
+        // line 125
+        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/shop_03.jpg"), "html", null, true);
+        yield "\" alt=\"\" class=\"img-responsive\">
+                            <div class=\"magnifier\">
+                                <a href=\"shop-single.html\" title=\"\"><i class=\"flaticon-add\"></i></a>
+                            </div>
+                        </div>
+                        <!-- end image-wrap -->
+                        <div class=\"course-details shop-box text-center\">
+                            <h4>
+                                <a href=\"shop-single.html\" title=\"\">Style own glasses</a>
+                                <small>Glasses</small>
+                            </h4>
+                        </div>
+                        <!-- end details -->
+                        <div class=\"course-footer clearfix\">
+                            <div class=\"pull-left\">
+                                <ul class=\"list-inline\">
+                                    <li><a href=\"#\"><i class=\"fa fa-shopping-basket\"></i> Add Cart</a></li>
+                                </ul>
+                            </div><!-- end left -->
+
+                            <div class=\"pull-right\">
+                                <ul class=\"list-inline\">
+                                    <li><a href=\"#\">\$52.00</a></li>
+                                </ul>
+                            </div><!-- end left -->
+                        </div><!-- end footer -->
+                    </div><!-- end box -->
+                </div><!-- end col -->
+
+                <div class=\"col-md-3\">
+                    <div class=\"course-box shop-wrapper\">
+                        <div class=\"image-wrap entry\">
+                            <img src=\"";
+        // line 157
+        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/shop_04.jpg"), "html", null, true);
+        yield "\" alt=\"\" class=\"img-responsive\">
+                            <div class=\"magnifier\">
+                                <a href=\"shop-single.html\" title=\"\"><i class=\"flaticon-add\"></i></a>
+                            </div>
+                        </div>
+                        <!-- end image-wrap -->
+                        <div class=\"course-details shop-box text-center\">
+                            <h4>
+                                <a href=\"shop-single.html\" title=\"\">Printed white t-shirt</a>
+                                <small>T-Shirts</small>
+                            </h4>
+                        </div>
+                        <!-- end details -->
+                        <div class=\"course-footer clearfix\">
+                            <div class=\"pull-left\">
+                                <ul class=\"list-inline\">
+                                    <li><a href=\"#\"><i class=\"fa fa-shopping-basket\"></i> Add Cart</a></li>
+                                </ul>
+                            </div><!-- end left -->
+
+                            <div class=\"pull-right\">
+                                <ul class=\"list-inline\">
+                                    <li><a href=\"#\">\$22.00</a></li>
+                                </ul>
+                            </div><!-- end left -->
+                        </div><!-- end footer -->
+                    </div><!-- end box -->
+                </div><!-- end col -->
             </div><!-- end row -->
+
 
             <hr class=\"invis\">
 
             <div class=\"section-button text-center\">
-                <a href=\"#\" class=\"btn btn-primary\">View All Courses</a>
+                <a href=\"#\" class=\"btn btn-primary btn-effect\">Voir tous les produits</a>
             </div>
-        </div><!-- end container -->
-    </section>
-
-    <section class=\"section db p120\">
-        <div class=\"container\">
-            <div class=\"row\">
-                <div class=\"col-md-12\">
-                    <div class=\"tagline-message text-center\">
-                        <h3>Howdy, we are Edulogy, we have brought together the best quality services, offers, projects for you!</h3>
-                    </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </section><!-- end section -->
-
-    <section class=\"section gb nopadtop\">
-        <div class=\"container\">
-            <div class=\"row\">
-                <div class=\"col-md-3\">
-                    <div class=\"box m30\">
-                        <i class=\"flaticon-computer-tool-for-education\"></i>
-                        <h4>Learning system</h4>
-                        <p>All sections required for online training are included to Edulogy.</p>
-                        <a href=\"#\" class=\"readmore\">Read more</a>
-                    </div>
-                </div><!-- end col -->
-
-                <div class=\"col-md-6\">
-                    <div class=\"box m30\">
-                        <i class=\"flaticon-monitor-tablet-and-smartohone\"></i>
-                        <h4>Works all mobile devices</h4>
-                        <p>The most important feature of this template is that it is compatible with all mobile devices. Your customers can also visit your site easily from tablets and phones.</p>
-                        <a href=\"#\" class=\"readmore\">Read more</a>
-                    </div>
-                </div><!-- end col -->
-
-                <div class=\"col-md-3\">
-                    <div class=\"box m30\">
-                        <i class=\"flaticon-download-business-statistics-symbol-of-a-graphic\"></i>
-                        <h4>User Dashboard</h4>
-                        <p>We designed the design of all the sub-pages needed for the users.</p>
-                        <a href=\"#\" class=\"readmore\">Read more</a>
-                    </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-
-            <hr class=\"invis\">
-
-            <div class=\"row\">
-                <div class=\"col-md-6\">
-                    <div class=\"box\">
-                        <i class=\"flaticon-html5\"></i> <i class=\"flaticon-css-3\"></i>
-                        <h4>Compatible HTML5 & CSS3</h4>
-                        <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current version of the HTML standard.</p>
-                        <a href=\"#\" class=\"readmore\">Read more</a>
-                    </div>
-                </div><!-- end col -->
-
-                <div class=\"col-md-6\">
-                    <div class=\"box\">
-                        <i class=\"flaticon-html-coding\"></i>
-                        <h4>Bootstrap Framework</h4>
-                        <p>Bootstrap is a technique of loading a program into a computer by means of a few initial instructions which enable the introduction of the rest of the program from an input device.</p>
-                        <a href=\"#\" class=\"readmore\">Read more</a>
-                    </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
         </div><!-- end container -->
     </section>
 
@@ -341,69 +346,6 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
             </div><!-- end row -->
         </div><!-- end container -->
     </section>
-
-    <section class=\"section\">
-        <div class=\"container\">
-            <div class=\"section-title text-center\">
-                <h3>Testimonials</h3>
-                <p>Maecenas sit amet tristique turpis. Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
-            </div><!-- end title -->
-
-            <div class=\"row\">
-                <div class=\"col-md-4\">
-                    <div class=\"box testimonial\">
-                        <p class=\"testiname\"><strong><img src=\"";
-        // line 237
-        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/testimonial_01.png"), "html", null, true);
-        yield "\" alt=\"\" class=\"img-circle\"> Jenny LUXURY</strong></p>
-                        <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
-                        <div class=\"rating\">
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                        </div>
-                    </div><!-- end testimonial -->
-                </div><!-- end col -->
-
-                <div class=\"col-md-4\">
-                    <div class=\"box testimonial\">
-                        <p class=\"testiname\"><strong><img src=\"";
-        // line 251
-        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/testimonial_02.png"), "html", null, true);
-        yield "\" alt=\"\" class=\"img-circle\"> Martin LEO</strong></p>
-                        <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
-                        <div class=\"rating\">
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star-o\"></i>
-                        </div>
-                    </div><!-- end testimonial -->
-                </div><!-- end col -->
-
-                <div class=\"col-md-4\">
-                    <div class=\"box testimonial\">
-                        <p class=\"testiname\"><strong><img src=\"";
-        // line 265
-        yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/testimonial_03.png"), "html", null, true);
-        yield "\" alt=\"\" class=\"img-circle\"> John DOE</strong></p>
-                        <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
-                        <div class=\"rating\">
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                        </div>
-                    </div><!-- end testimonial -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </section>
-
     <section class=\"section gb\">
         <div class=\"container\">
             <div class=\"section-title text-center\">
@@ -416,12 +358,12 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
                     <div class=\"blog-box\">
                         <div class=\"image-wrap entry\">
                             <img src=\"";
-        // line 291
+        // line 236
         yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/blog_01.jpeg"), "html", null, true);
         yield "\" alt=\"\" class=\"img-responsive\">
                             <div class=\"magnifier\">
                                 <a href=\"";
-        // line 293
+        // line 238
         yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("blog-single.html"), "html", null, true);
         yield "\" title=\"\"><i class=\"flaticon-add\"></i></a>
                             </div>
@@ -429,7 +371,7 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
 
                         <div class=\"blog-desc\">
                             <h4><a href=\"";
-        // line 298
+        // line 243
         yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("blog-single.html"), "html", null, true);
         yield "\">How to learn perfect code with Javascript</a></h4>
                             <p>Praesent at suscipit ligula. Suspendisse pre neque, quis suscipit enim. sed maximus, mia auctor.</p>
@@ -449,7 +391,7 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
                     <div class=\"blog-box\">
                         <div class=\"image-wrap entry\">
                             <img src=\"";
-        // line 315
+        // line 260
         yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/blog_02.jpeg"), "html", null, true);
         yield "\" alt=\"\" class=\"img-responsive\">
                             <div class=\"magnifier\">
@@ -476,7 +418,7 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
                     <div class=\"blog-box\">
                         <div class=\"image-wrap entry\">
                             <img src=\"";
-        // line 339
+        // line 284
         yield Twig\Extension\EscaperExtension::escape($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("upload/blog_03.jpeg"), "html", null, true);
         yield "\" alt=\"\" class=\"img-responsive\">
                             <div class=\"magnifier\">
@@ -503,10 +445,45 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
     </section>
 
 ";
-        // line 371
+        // line 319
         yield "
 ";
-        // line 379
+        // line 331
+        yield "
+";
+        // line 340
+        yield "
+";
+        // line 350
+        yield "
+";
+        // line 352
+        yield "
+";
+        // line 362
+        yield "
+";
+        // line 374
+        yield "
+
+";
+        // line 382
+        yield "
+";
+        // line 397
+        yield "
+";
+        // line 411
+        yield "
+";
+        // line 428
+        yield "
+
+";
+        // line 438
+        yield "
+";
+        // line 446
         yield "
 ";
         
@@ -539,7 +516,7 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
      */
     public function getDebugInfo()
     {
-        return array (  510 => 379,  507 => 371,  480 => 339,  453 => 315,  433 => 298,  425 => 293,  420 => 291,  391 => 265,  374 => 251,  357 => 237,  209 => 92,  175 => 61,  167 => 55,  138 => 28,  113 => 5,  103 => 4,  83 => 3,  61 => 2,  38 => 1,);
+        return array (  487 => 446,  484 => 438,  480 => 428,  477 => 411,  474 => 397,  471 => 382,  467 => 374,  464 => 362,  461 => 352,  458 => 350,  455 => 340,  452 => 331,  449 => 319,  422 => 284,  395 => 260,  375 => 243,  367 => 238,  362 => 236,  280 => 157,  245 => 125,  210 => 93,  175 => 61,  167 => 55,  138 => 28,  113 => 5,  103 => 4,  83 => 3,  61 => 2,  38 => 1,);
     }
 
     public function getSourceContext()
@@ -600,8 +577,8 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
 {#                <p>Maecenas sit amet tristique turpis. Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>#}
             </div><!-- end title -->
 
-            <div id=\"owl-01\" class=\"owl-carousel owl-theme owl-theme-01\">
-                <div class=\"caro-item\">
+            <div class=\"row blog-grid shop-grid\">
+                <div class=\"col-md-3\">
                     <div class=\"course-box shop-wrapper\">
                         <div class=\"image-wrap entry\">
                             <img src=\"{{ asset('upload/shop_01.jpg') }}\" alt=\"\" class=\"img-responsive\">
@@ -631,11 +608,12 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
                             </div><!-- end left -->
                         </div><!-- end footer -->
                     </div><!-- end box -->
-                </div>
-                <div class=\"caro-item\">
+                </div><!-- end col -->
+
+                <div class=\"col-md-3\">
                     <div class=\"course-box shop-wrapper\">
                         <div class=\"image-wrap entry\">
-                            <img src=\"{{ asset('upload/shop_01.jpg') }}\" alt=\"\" class=\"img-responsive\">
+                            <img src=\"{{ asset('upload/shop_02.jpg') }}\" alt=\"\" class=\"img-responsive\">
                             <div class=\"magnifier\">
                                 <a href=\"shop-single.html\" title=\"\"><i class=\"flaticon-add\"></i></a>
                             </div>
@@ -643,8 +621,8 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
                         <!-- end image-wrap -->
                         <div class=\"course-details shop-box text-center\">
                             <h4>
-                                <a href=\"shop-single.html\" title=\"\">Brown leather bag</a>
-                                <small>Bags</small>
+                                <a href=\"shop-single.html\" title=\"\">Long coat jacket</a>
+                                <small>Jackets</small>
                             </h4>
                         </div>
                         <!-- end details -->
@@ -657,86 +635,84 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
 
                             <div class=\"pull-right\">
                                 <ul class=\"list-inline\">
-                                    <li><a href=\"#\">\$441.00</a></li>
+                                    <li><a href=\"#\">\$122.00</a></li>
                                 </ul>
                             </div><!-- end left -->
                         </div><!-- end footer -->
                     </div><!-- end box -->
-                </div>
+                </div><!-- end col -->
+
+                <div class=\"col-md-3\">
+                    <div class=\"course-box shop-wrapper\">
+                        <div class=\"image-wrap entry\">
+                            <img src=\"{{ asset('upload/shop_03.jpg') }}\" alt=\"\" class=\"img-responsive\">
+                            <div class=\"magnifier\">
+                                <a href=\"shop-single.html\" title=\"\"><i class=\"flaticon-add\"></i></a>
+                            </div>
+                        </div>
+                        <!-- end image-wrap -->
+                        <div class=\"course-details shop-box text-center\">
+                            <h4>
+                                <a href=\"shop-single.html\" title=\"\">Style own glasses</a>
+                                <small>Glasses</small>
+                            </h4>
+                        </div>
+                        <!-- end details -->
+                        <div class=\"course-footer clearfix\">
+                            <div class=\"pull-left\">
+                                <ul class=\"list-inline\">
+                                    <li><a href=\"#\"><i class=\"fa fa-shopping-basket\"></i> Add Cart</a></li>
+                                </ul>
+                            </div><!-- end left -->
+
+                            <div class=\"pull-right\">
+                                <ul class=\"list-inline\">
+                                    <li><a href=\"#\">\$52.00</a></li>
+                                </ul>
+                            </div><!-- end left -->
+                        </div><!-- end footer -->
+                    </div><!-- end box -->
+                </div><!-- end col -->
+
+                <div class=\"col-md-3\">
+                    <div class=\"course-box shop-wrapper\">
+                        <div class=\"image-wrap entry\">
+                            <img src=\"{{ asset('upload/shop_04.jpg') }}\" alt=\"\" class=\"img-responsive\">
+                            <div class=\"magnifier\">
+                                <a href=\"shop-single.html\" title=\"\"><i class=\"flaticon-add\"></i></a>
+                            </div>
+                        </div>
+                        <!-- end image-wrap -->
+                        <div class=\"course-details shop-box text-center\">
+                            <h4>
+                                <a href=\"shop-single.html\" title=\"\">Printed white t-shirt</a>
+                                <small>T-Shirts</small>
+                            </h4>
+                        </div>
+                        <!-- end details -->
+                        <div class=\"course-footer clearfix\">
+                            <div class=\"pull-left\">
+                                <ul class=\"list-inline\">
+                                    <li><a href=\"#\"><i class=\"fa fa-shopping-basket\"></i> Add Cart</a></li>
+                                </ul>
+                            </div><!-- end left -->
+
+                            <div class=\"pull-right\">
+                                <ul class=\"list-inline\">
+                                    <li><a href=\"#\">\$22.00</a></li>
+                                </ul>
+                            </div><!-- end left -->
+                        </div><!-- end footer -->
+                    </div><!-- end box -->
+                </div><!-- end col -->
             </div><!-- end row -->
+
 
             <hr class=\"invis\">
 
             <div class=\"section-button text-center\">
-                <a href=\"#\" class=\"btn btn-primary\">View All Courses</a>
+                <a href=\"#\" class=\"btn btn-primary btn-effect\">Voir tous les produits</a>
             </div>
-        </div><!-- end container -->
-    </section>
-
-    <section class=\"section db p120\">
-        <div class=\"container\">
-            <div class=\"row\">
-                <div class=\"col-md-12\">
-                    <div class=\"tagline-message text-center\">
-                        <h3>Howdy, we are Edulogy, we have brought together the best quality services, offers, projects for you!</h3>
-                    </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </section><!-- end section -->
-
-    <section class=\"section gb nopadtop\">
-        <div class=\"container\">
-            <div class=\"row\">
-                <div class=\"col-md-3\">
-                    <div class=\"box m30\">
-                        <i class=\"flaticon-computer-tool-for-education\"></i>
-                        <h4>Learning system</h4>
-                        <p>All sections required for online training are included to Edulogy.</p>
-                        <a href=\"#\" class=\"readmore\">Read more</a>
-                    </div>
-                </div><!-- end col -->
-
-                <div class=\"col-md-6\">
-                    <div class=\"box m30\">
-                        <i class=\"flaticon-monitor-tablet-and-smartohone\"></i>
-                        <h4>Works all mobile devices</h4>
-                        <p>The most important feature of this template is that it is compatible with all mobile devices. Your customers can also visit your site easily from tablets and phones.</p>
-                        <a href=\"#\" class=\"readmore\">Read more</a>
-                    </div>
-                </div><!-- end col -->
-
-                <div class=\"col-md-3\">
-                    <div class=\"box m30\">
-                        <i class=\"flaticon-download-business-statistics-symbol-of-a-graphic\"></i>
-                        <h4>User Dashboard</h4>
-                        <p>We designed the design of all the sub-pages needed for the users.</p>
-                        <a href=\"#\" class=\"readmore\">Read more</a>
-                    </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-
-            <hr class=\"invis\">
-
-            <div class=\"row\">
-                <div class=\"col-md-6\">
-                    <div class=\"box\">
-                        <i class=\"flaticon-html5\"></i> <i class=\"flaticon-css-3\"></i>
-                        <h4>Compatible HTML5 & CSS3</h4>
-                        <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current version of the HTML standard.</p>
-                        <a href=\"#\" class=\"readmore\">Read more</a>
-                    </div>
-                </div><!-- end col -->
-
-                <div class=\"col-md-6\">
-                    <div class=\"box\">
-                        <i class=\"flaticon-html-coding\"></i>
-                        <h4>Bootstrap Framework</h4>
-                        <p>Bootstrap is a technique of loading a program into a computer by means of a few initial instructions which enable the introduction of the rest of the program from an input device.</p>
-                        <a href=\"#\" class=\"readmore\">Read more</a>
-                    </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
         </div><!-- end container -->
     </section>
 
@@ -769,60 +745,6 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
             </div><!-- end row -->
         </div><!-- end container -->
     </section>
-
-    <section class=\"section\">
-        <div class=\"container\">
-            <div class=\"section-title text-center\">
-                <h3>Testimonials</h3>
-                <p>Maecenas sit amet tristique turpis. Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
-            </div><!-- end title -->
-
-            <div class=\"row\">
-                <div class=\"col-md-4\">
-                    <div class=\"box testimonial\">
-                        <p class=\"testiname\"><strong><img src=\"{{ asset('upload/testimonial_01.png') }}\" alt=\"\" class=\"img-circle\"> Jenny LUXURY</strong></p>
-                        <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
-                        <div class=\"rating\">
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                        </div>
-                    </div><!-- end testimonial -->
-                </div><!-- end col -->
-
-                <div class=\"col-md-4\">
-                    <div class=\"box testimonial\">
-                        <p class=\"testiname\"><strong><img src=\"{{ asset('upload/testimonial_02.png') }}\" alt=\"\" class=\"img-circle\"> Martin LEO</strong></p>
-                        <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
-                        <div class=\"rating\">
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star-o\"></i>
-                        </div>
-                    </div><!-- end testimonial -->
-                </div><!-- end col -->
-
-                <div class=\"col-md-4\">
-                    <div class=\"box testimonial\">
-                        <p class=\"testiname\"><strong><img src=\"{{ asset('upload/testimonial_03.png') }}\" alt=\"\" class=\"img-circle\"> John DOE</strong></p>
-                        <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>
-                        <div class=\"rating\">
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                            <i class=\"fa fa-star\"></i>
-                        </div>
-                    </div><!-- end testimonial -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </section>
-
     <section class=\"section gb\">
         <div class=\"container\">
             <div class=\"section-title text-center\">
@@ -905,6 +827,128 @@ class __TwigTemplate_a92b9da727cd36454f67c0bb972bfbb7 extends Template
             </div><!-- end row -->
         </div><!-- end container -->
     </section>
+
+{#    <section class=\"section db p120\">#}
+{#        <div class=\"container\">#}
+{#            <div class=\"row\">#}
+{#                <div class=\"col-md-12\">#}
+{#                    <div class=\"tagline-message text-center\">#}
+{#                        <h3>Howdy, we are Edulogy, we have brought together the best quality services, offers, projects for you!</h3>#}
+{#                    </div>#}
+{#                </div><!-- end col -->#}
+{#            </div><!-- end row -->#}
+{#        </div><!-- end container -->#}
+{#    </section><!-- end section -->#}
+
+{#    <section class=\"section gb nopadtop\">#}
+{#        <div class=\"container\">#}
+{#            <div class=\"row\">#}
+{#                <div class=\"col-md-3\">#}
+{#                    <div class=\"box m30\">#}
+{#                        <i class=\"flaticon-computer-tool-for-education\"></i>#}
+{#                        <h4>Learning system</h4>#}
+{#                        <p>All sections required for online training are included to Edulogy.</p>#}
+{#                        <a href=\"#\" class=\"readmore\">Read more</a>#}
+{#                    </div>#}
+{#                </div><!-- end col -->#}
+
+{#                <div class=\"col-md-6\">#}
+{#                    <div class=\"box m30\">#}
+{#                        <i class=\"flaticon-monitor-tablet-and-smartohone\"></i>#}
+{#                        <h4>Works all mobile devices</h4>#}
+{#                        <p>The most important feature of this template is that it is compatible with all mobile devices. Your customers can also visit your site easily from tablets and phones.</p>#}
+{#                        <a href=\"#\" class=\"readmore\">Read more</a>#}
+{#                    </div>#}
+{#                </div><!-- end col -->#}
+
+{#                <div class=\"col-md-3\">#}
+{#                    <div class=\"box m30\">#}
+{#                        <i class=\"flaticon-download-business-statistics-symbol-of-a-graphic\"></i>#}
+{#                        <h4>User Dashboard</h4>#}
+{#                        <p>We designed the design of all the sub-pages needed for the users.</p>#}
+{#                        <a href=\"#\" class=\"readmore\">Read more</a>#}
+{#                    </div>#}
+{#                </div><!-- end col -->#}
+{#            </div><!-- end row -->#}
+
+{#            <hr class=\"invis\">#}
+
+{#            <div class=\"row\">#}
+{#                <div class=\"col-md-6\">#}
+{#                    <div class=\"box\">#}
+{#                        <i class=\"flaticon-html5\"></i> <i class=\"flaticon-css-3\"></i>#}
+{#                        <h4>Compatible HTML5 & CSS3</h4>#}
+{#                        <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current version of the HTML standard.</p>#}
+{#                        <a href=\"#\" class=\"readmore\">Read more</a>#}
+{#                    </div>#}
+{#                </div><!-- end col -->#}
+
+{#                <div class=\"col-md-6\">#}
+{#                    <div class=\"box\">#}
+{#                        <i class=\"flaticon-html-coding\"></i>#}
+{#                        <h4>Bootstrap Framework</h4>#}
+{#                        <p>Bootstrap is a technique of loading a program into a computer by means of a few initial instructions which enable the introduction of the rest of the program from an input device.</p>#}
+{#                        <a href=\"#\" class=\"readmore\">Read more</a>#}
+{#                    </div>#}
+{#                </div><!-- end col -->#}
+{#            </div><!-- end row -->#}
+{#        </div><!-- end container -->#}
+{#    </section>#}
+
+
+{#    <section class=\"section\">#}
+{#        <div class=\"container\">#}
+{#            <div class=\"section-title text-center\">#}
+{#                <h3>Testimonials</h3>#}
+{#                <p>Maecenas sit amet tristique turpis. Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>#}
+{#            </div><!-- end title -->#}
+
+{#            <div class=\"row\">#}
+{#                <div class=\"col-md-4\">#}
+{#                    <div class=\"box testimonial\">#}
+{#                        <p class=\"testiname\"><strong><img src=\"{{ asset('upload/testimonial_01.png') }}\" alt=\"\" class=\"img-circle\"> Jenny LUXURY</strong></p>#}
+{#                        <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>#}
+{#                        <div class=\"rating\">#}
+{#                            <i class=\"fa fa-star\"></i>#}
+{#                            <i class=\"fa fa-star\"></i>#}
+{#                            <i class=\"fa fa-star\"></i>#}
+{#                            <i class=\"fa fa-star\"></i>#}
+{#                            <i class=\"fa fa-star\"></i>#}
+{#                        </div>#}
+{#                    </div><!-- end testimonial -->#}
+{#                </div><!-- end col -->#}
+
+{#                <div class=\"col-md-4\">#}
+{#                    <div class=\"box testimonial\">#}
+{#                        <p class=\"testiname\"><strong><img src=\"{{ asset('upload/testimonial_02.png') }}\" alt=\"\" class=\"img-circle\"> Martin LEO</strong></p>#}
+{#                        <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>#}
+{#                        <div class=\"rating\">#}
+{#                            <i class=\"fa fa-star\"></i>#}
+{#                            <i class=\"fa fa-star\"></i>#}
+{#                            <i class=\"fa fa-star\"></i>#}
+{#                            <i class=\"fa fa-star\"></i>#}
+{#                            <i class=\"fa fa-star-o\"></i>#}
+{#                        </div>#}
+{#                    </div><!-- end testimonial -->#}
+{#                </div><!-- end col -->#}
+
+{#                <div class=\"col-md-4\">#}
+{#                    <div class=\"box testimonial\">#}
+{#                        <p class=\"testiname\"><strong><img src=\"{{ asset('upload/testimonial_03.png') }}\" alt=\"\" class=\"img-circle\"> John DOE</strong></p>#}
+{#                        <p>Quisque porttitor eros quis leo pulvinar, at hendrerit sapien iaculis. Donec consectetur accumsan arcu, sit amet fringilla ex ultricies.</p>#}
+{#                        <div class=\"rating\">#}
+{#                            <i class=\"fa fa-star\"></i>#}
+{#                            <i class=\"fa fa-star\"></i>#}
+{#                            <i class=\"fa fa-star\"></i>#}
+{#                            <i class=\"fa fa-star\"></i>#}
+{#                            <i class=\"fa fa-star\"></i>#}
+{#                        </div>#}
+{#                    </div><!-- end testimonial -->#}
+{#                </div><!-- end col -->#}
+{#            </div><!-- end row -->#}
+{#        </div><!-- end container -->#}
+{#    </section>#}
+
 
 {#    <section class=\"section bgcolor1\">#}
 {#        <div class=\"container\">#}
